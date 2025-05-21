@@ -5,8 +5,8 @@ export default function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<Loguearse />} />
         <Route path="/login" element={<Loguearse />} />
-
       </Routes>
     </Router>
   )
