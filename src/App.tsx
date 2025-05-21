@@ -1,13 +1,14 @@
 
-import './App.css'
+import './index.css'
+import Login from './components/LoginFrom-Admin'
 
 function App() {
  
 
   return (
-    <>
-      <h1>aaaa</h1>
-    </>
+    <Login>
+
+    </Login>
   )
 }
 
