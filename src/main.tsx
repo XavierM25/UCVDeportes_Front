@@ -10,6 +10,6 @@ createRoot(document.getElementById('root')!).render(
     {/* <App /> 
     <solicitud />
     <Validar />*/}
-    <Crearnueva />
+    <App />
   </StrictMode>,
 )

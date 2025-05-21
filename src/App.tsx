@@ -1,8 +1,18 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Eye, EyeOff } from "lucide-react"
 export default function App() {
   const [showPassword, setShowPassword] = useState(false)
   const [isLoginView, setIsLoginView] = useState(true)
+
+  useEffect(() => {
+    fetch("http://localhost:3000/api/ping") 
+      .then((res) => res.json())
+      .then((data) => console.log("✅ Conexión con el backend:", data))
+      .catch((err) => console.error("❌ Error al conectar con el backend:", err))
+  }, [])
+
+
+
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword)
   }
