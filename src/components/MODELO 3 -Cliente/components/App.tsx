@@ -1,13 +1,14 @@
 import React from "react";
 import './App.css'
+import Dashboard from'../../../Dashboard';
 
 const MiPerfil = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100 p-4">
       <div className="w-full max-w-lg bg-white rounded-lg shadow-md p-6">
         <h1 className="text-3xl font-bold text-center mb-6">Mi Perfil</h1>
-        
         <div className="space-y-4">
+          <Dashboard/>
           {}
           <div>
             <label htmlFor="nomCli" className="block text-sm font-medium text-gray-700 mb-1">
