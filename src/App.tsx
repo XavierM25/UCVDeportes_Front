@@ -1,14 +1,12 @@
-
-import './App.css'
+import DashUser from "./components/DashUser/DashUser";
+import "./App.css";
 
 function App() {
- 
-
   return (
     <>
-      <h1>aaaa</h1>
+      <DashUser />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
