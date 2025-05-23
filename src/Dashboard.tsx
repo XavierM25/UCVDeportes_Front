@@ -1,12 +1,23 @@
-import { FaHome, FaUser, FaTrophy, FaClipboardList, FaCog, FaSignOutAlt, FaHeart, FaPlay } from "react-icons/fa";
+import {
+  FaHome,
+  FaUser,
+  FaTrophy,
+  FaClipboardList,
+  FaCog,
+  FaSignOutAlt,
+  FaHeart,
+  FaPlay,
+} from "react-icons/fa";
 
 export default function Dashboard() {
   return (
-    <div asdsadsadasdsadwclassName="flex min-h-screen bg-gray-50">
+    <div className="flex min-h-screen bg-gray-50">
       {/* Sidebar */}
       <aside className="w-64 bg-white shadow-md px-6 py-8 flex flex-col justify-between">
         <div className="space-y-6">
-          <div className="text-red-600 font-bold text-lg mb-4 cursor-pointer">Dashboard</div>
+          <div className="text-red-600 font-bold text-lg mb-4 cursor-pointer">
+            Dashboard
+          </div>
           <nav className="space-y-4 text-sm">
             <div className="flex items-center gap-3 text-red-600 font-semibold cursor-pointer">
               <FaHome /> Dashboard
@@ -49,16 +60,22 @@ export default function Dashboard() {
         <div className="mb-6">
           <div className="relative w-full h-48 bg-black rounded-xl shadow-md overflow-hidden cursor-pointer">
             <div className="absolute bottom-0 w-full bg-black/70 text-white px-4 py-2 text-sm">
-              El Video Popular de Hoy : <span className="ml-4">👍 0</span> <span className="ml-4">📅 10 ago</span>
+              El Video Popular de Hoy : <span className="ml-4">👍 0</span>{" "}
+              <span className="ml-4">📅 10 ago</span>
             </div>
           </div>
         </div>
 
         {/* Filtros */}
-        <h2 className="text-lg font-semibold mb-2">Descubre Deportes y Noticias</h2>
+        <h2 className="text-lg font-semibold mb-2">
+          Descubre Deportes y Noticias
+        </h2>
         <div className="flex gap-2 mb-4">
-          {['Todo', 'Deportes', 'Cultura y Eventos', 'Talleres'].map((cat) => (
-            <button key={cat} className="bg-gray-200 hover:bg-blue-100 text-sm text-gray-800 px-4 py-1 rounded-full cursor-pointer">
+          {["Todo", "Deportes", "Cultura y Eventos", "Talleres"].map((cat) => (
+            <button
+              key={cat}
+              className="bg-gray-200 hover:bg-blue-100 text-sm text-gray-800 px-4 py-1 rounded-full cursor-pointer"
+            >
               {cat}
             </button>
           ))}
@@ -67,7 +84,10 @@ export default function Dashboard() {
         {/* Galería de videos */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {[1, 2, 3].map((item) => (
-            <div key={item} className="relative rounded-xl bg-black h-48 shadow-md overflow-hidden cursor-pointer">
+            <div
+              key={item}
+              className="relative rounded-xl bg-black h-48 shadow-md overflow-hidden cursor-pointer"
+            >
               <button className="absolute top-2 right-2 text-white bg-white/40 rounded-full p-2 cursor-pointer">
                 <FaHeart />
               </button>
@@ -97,7 +117,9 @@ export default function Dashboard() {
             <div className="w-10 h-10 bg-gray-300 rounded-full" />
             <div>
               <div className="font-semibold text-sm">Saavedra Vega Jose</div>
-              <div className="text-xs text-gray-500">🏅 Estudiante Destacado | Baile</div>
+              <div className="text-xs text-gray-500">
+                🏅 Estudiante Destacado | Baile
+              </div>
             </div>
             <FaHeart className="ml-auto text-black" />
           </div>
