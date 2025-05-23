@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Curso_typescript"
+		},
+		{
+			"path": "../../../../Carpeta de proyecto - app"
+		},
+		{
+			"path": "../../../../Mi app"
+		},
+		{
+			"path": "../../../../Curso-Typesc"
+		},
+		{
+			"path": "../../../../Archivos de dataset"
+		},
+		{
+			"path": "../../../../UCVDeportes"
+		},
+		{
+			"path": "../../../../UCVDeportes-main"
+		},
+		{
+			"path": "../../../../Nuevo proyecto- front"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UCVDeportes-main",
+		"liveServer.settings.port": 5501
+	}
+}
