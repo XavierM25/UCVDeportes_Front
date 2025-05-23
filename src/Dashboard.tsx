@@ -2,7 +2,7 @@ import { FaHome, FaUser, FaTrophy, FaClipboardList, FaCog, FaSignOutAlt, FaHeart
 
 export default function Dashboard() {
   return (
-    <div className="flex min-h-screen bg-gray-50">
+    <div asdsadsadasdsadwclassName="flex min-h-screen bg-gray-50">
       {/* Sidebar */}
       <aside className="w-64 bg-white shadow-md px-6 py-8 flex flex-col justify-between">
         <div className="space-y-6">
